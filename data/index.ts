@@ -1,6 +1,5 @@
 export const navItems = [
     { name: "About", link: "#about" },
-    { name: "Projects", link: "#projects" },
     { name: "Testimonials", link: "#testimonials" },
     { name: "Contact", link: "#contact" },
   ];
@@ -49,7 +48,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Currently working on different projects",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -73,9 +72,9 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Collaborating with Jean de Dieu was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Jean de Dieu's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with Jean de Dieu was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Jean de Dieu's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Jean de Dieu is the ideal partner.",
+      name: "Donna Sinclair",
+      title: "Co-founder krispii.inc",
     },
   ];
   
@@ -115,28 +114,28 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Engineer Intern - Leonard agency web",
+      desc: "Assisted in the development of a web-based platform using C# and .net enhancing interactivity.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      title: "Full stack developer - Krispii.inc",
+      desc: "Designed and developed web-based and mobile app for platforms using React and React Native.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      title: "Programmer analyst - Desjardins",
+      desc: "Led the dev of apps for clients, from initial concept to deployment .",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
+      title: "Freelance App Dev Project",
       desc: "Developed and maintained user-facing features using modern frontend technologies.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
