@@ -1,13 +1,16 @@
 {
+  "homepage": "https://johnchafi.github.io/Portofolio_Jean",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "predeploy": "npm run build",
+    "deploy": "vercel --prod",
+
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "deploy": "vercel --prod"
+    "lint": "next lint"
   },
   "dependencies": {
     "@react-three/drei": "^9.111.4",

@@ -1,4 +1,4 @@
-
+//"deploy": "gh-pages -d build",
 import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Sportlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
